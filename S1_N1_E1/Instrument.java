@@ -5,8 +5,8 @@ public abstract class Instrument {
     private double price;
 
     public Instrument(String name, double price) {
-        setName(name);
-        setPrice(price);
+        this.name = name;
+        this.price = price;
     }
 
     //Static block --> Must be executed once when class is loaded
